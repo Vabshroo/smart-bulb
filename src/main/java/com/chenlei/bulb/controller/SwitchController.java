@@ -6,13 +6,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 /**
  * Created by chenlei on 2017/3/19.
  */
+
 @Controller
 @RequestMapping("/smart-bulb")
-public class HelloController extends AbstractController {
+public class SwitchController extends AbstractController {
 
-    @RequestMapping("/hello")
-    public String hello(){
-        return HELLO_VIEW;
+    @RequestMapping("/switch")
+    public String sw(){
+        return SWITCH_VIEW;
     }
 
 }

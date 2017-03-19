@@ -8,11 +8,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
  */
 @Controller
 @RequestMapping("/smart-bulb")
-public class HelloController extends AbstractController {
+public class TrainingController extends AbstractController {
 
-    @RequestMapping("/hello")
-    public String hello(){
-        return HELLO_VIEW;
+    @RequestMapping("/training")
+    public String training(){
+        return TRAINING_VIEW;
     }
+
 
 }
